@@ -31,7 +31,7 @@ I'm a computer science student from France, passionate about turning ideas into 
 
 ## 🎧 Favorite Artists
 
-ADO, Eminem
+ADO, Eminem, NF
 
 ---
 
@@ -46,5 +46,5 @@ ADO, Eminem
 > “Keep it simple, keep it creative.”
 
 ```
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Mvth1s&layout=compact&theme=transparent)
+https://github-readme-stats.vercel.app/api/top-langs/?username=Mvth1s&layout=compact&theme=transparent
 ```
