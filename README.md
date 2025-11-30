@@ -20,7 +20,7 @@ My goal is to become a full-fledged developer, crafting creative digital experie
 ## 📫 Get in Touch
 
 - [LinkedIn](https://linkedin.com/in/mathis-aguado)
-- [Portfolio](https://https://mathisaguado.vercel.app)
+- [Portfolio](https://mathisaguado.vercel.app)
 - Contact: via [GitHub](https://github.com/Mvth1s) or [email](aguado.mathis@pm.me)
 
 ---
