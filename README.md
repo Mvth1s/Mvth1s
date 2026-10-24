@@ -42,7 +42,7 @@ My goal is to become a DevOps engineer.
 
 - [LinkedIn](https://linkedin.com/in/mathis-aguado)
 - [Portfolio](https://mathisaguado.vercel.app)
-- [Email](mailto:aguado.mathis@pm.me)
+- [Email](mailto:mag.d3v+github@pm.me)
 
 ---
 
