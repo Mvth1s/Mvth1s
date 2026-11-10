@@ -177,6 +177,44 @@ def recent_svg(repos, now):
     return frame(h, "~/repos", "\n".join(body), now)
 
 
+STACK = [
+    ("</>", "languages", "Python, TypeScript, Bash, Rust"),
+    ("[#]", "frontend", "Vue 3, PrimeVue, Nuxt"),
+    ("{~}", "devops", "Docker, Kubernetes (K3s), Ansible, GitHub Actions"),
+    ("   ", "", "Semantic Release"),
+    ("/|\\", "monitoring", "Prometheus, Grafana"),
+    (">_ ", "os", "EndeavourOS, Fedora, Debian, openSUSE"),
+]
+
+CONTACTS = [("linkedin", "in/mathis-aguado"), ("portfolio", "mathisaguado"), ("email", "mag.d3v")]
+
+
+def stack_svg(now):
+    body = [line(56, "$ cat stack.txt", 0.2, 14, DIM)]
+    for i, (glyph, cat, items) in enumerate(STACK):
+        y = 84 + i * 24
+        d = 0.5 + i * 0.15
+        body.append(f'<text class="l" style="animation-delay:{d:.2f}s" x="24" y="{y}" font-size="14" xml:space="preserve">'
+                    f'<tspan fill="{MID}">{escape(glyph)}</tspan>'
+                    f'<tspan fill="{DIM}">  {escape(cat.ljust(11))}</tspan>'
+                    f'<tspan fill="{GREEN}">{escape(items)}</tspan></text>')
+    h = 84 + len(STACK) * 24 + 30
+    return frame(h, "~/stack", "\n".join(body), now)
+
+
+def button_svg(label, hint):
+    text = f"> {label}"
+    w = 260
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="52" viewBox="0 0 {w} 52" role="img" aria-label="{label}">
+<title>{label}</title>
+<style>text{{font-family:{FONT};}}</style>
+<rect x="0.5" y="0.5" width="{w - 1}" height="51" rx="8" fill="{BG}" stroke="{MID}"/>
+<text x="18" y="24" font-size="16" fill="{GREEN}" xml:space="preserve">{escape(text)}<tspan fill="{GREEN}"><animate attributeName="opacity" values="1;0;1" dur="1s" calcMode="discrete" repeatCount="indefinite"/>_</tspan></text>
+<text x="18" y="42" font-size="11" fill="{DIM}">{escape(hint)}</text>
+</svg>
+"""
+
+
 TS = re.compile(r"<!--ts-->.*?<!--/ts-->")
 
 
@@ -194,8 +232,12 @@ def main():
     repos = fetch_repos()
     write_if_changed(OUT / "header.svg", header_svg(now))
     write_if_changed(OUT / "stats.svg", stats_svg(repos, fetch_activity(), now))
-    write_if_changed(OUT / "langs.svg", langs_svg(fetch_languages([r for r in repos if not r["archived"]]), now))
+    active = [r for r in repos if not r["archived"]]
+    write_if_changed(OUT / "langs.svg", langs_svg(fetch_languages(active), now))
     write_if_changed(OUT / "recent.svg", recent_svg(repos, now))
+    write_if_changed(OUT / "stack.svg", stack_svg(now))
+    for label, hint in CONTACTS:
+        write_if_changed(OUT / f"contact-{label}.svg", button_svg(label, hint))
 
 
 if __name__ == "__main__":
