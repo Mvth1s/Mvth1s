@@ -1,49 +1,60 @@
-# Hi, I'm Mathis (Mvth1s) 👋
+<div align="center">
 
-I'm a Master's student in Cloud & DevOps from France 🇫🇷.
+<img src="assets/header.svg" alt="whoami: Mathis / Mvth1s, Cloud and DevOps student" width="100%">
 
-Passionate about automation, open-source, and building reliable systems.
+</div>
 
-My goal is to become a DevOps engineer.
+I'm a Master's student in Cloud and DevOps, working in an apprenticeship. I like automating things, building reliable systems, and shipping open-source tools. Daily driver: Linux (EndeavourOS + KDE Plasma).
 
----
+<img src="assets/stats.svg" alt="GitHub stats" width="100%">
 
-## 🚀 About Me
+<img src="assets/langs.svg" alt="Most used languages" width="100%">
 
-- 🎓 Master's student in Cloud & DevOps 💻
-- 🗣️ Native French speaker 🇫🇷
-- 🛠️ Building with Python, Rust, Vue 3, TypeScript, Docker, Kubernetes & GitHub Actions
-- 🐧 Daily driving Linux: EndeavourOS with KDE Plasma and Fedora Workstation
-- 🔓 Open-source enthusiast & privacy advocate
-- ⚡ Passions: Cars 🚗, Video Games 🎮, Anime 📺, Webtoons/Manhua/Manga 📚
+<img src="assets/recent.svg" alt="Recently updated repositories" width="100%">
 
----
+## $ cat stack.txt
 
-## 🔧 Tech & Tools
+```text
+languages   Python, TypeScript, Bash, Rust
+frontend    Vue 3, PrimeVue, Nuxt
+devops      Docker, Kubernetes (K3s), Ansible, GitHub Actions, Semantic Release
+monitoring  Prometheus, Grafana
+os          EndeavourOS, Fedora, Debian, openSUSE
+```
 
-**Languages:** Python, Rust, TypeScript, Bash  
-**Frontend:** Vue 3, PrimeVue  
-**DevOps:** Docker, Kubernetes (K3s), Ansible, GitHub Actions, CI/CD, Semantic Release  
-**Monitoring:** Prometheus, Grafana  
-**OS:** Linux (EndeavourOS, Fedora, Debian, openSUSE)
+## $ ls ~/projects --featured
 
----
+```text
+Verto                 open-source file converter (Tauri v2 + Vue 3, multi-OS CI)
+hwbench               Linux hardware info and benchmark CLI, public leaderboard
+linux-setup           one-command provisioning for Arch, Debian, Fedora, openSUSE
+MyLittleAnsible       mini Ansible in Python: SSH + YAML playbooks
+Le-Fil-des-Chapitres  webtoon reading tracker (work in progress)
+hors-pc               console exclusives catalogue, weekly GitHub Actions update
+```
 
-## 📌 Featured Projects
+[Verto](https://github.com/Mvth1s/Verto) | [hwbench](https://github.com/Mvth1s/hwbench) | [linux-setup](https://github.com/Mvth1s/linux-setup) | [MyLittleAnsible](https://github.com/Mvth1s/MyLittleAnsible) | [Le-Fil-des-Chapitres](https://github.com/Mvth1s/Le-Fil-des-Chapitres) | [hors-pc](https://github.com/Mvth1s/hors-pc)
 
-- [hwbench](https://github.com/Mvth1s/hwbench): Linux hardware info and benchmark CLI in Python, with a public leaderboard
-- [Ce-Soir-Je-Joue-A](https://github.com/Mvth1s/Ce-Soir-Je-Joue-A): AI game recommender based on your Steam library
-- [Verto](https://github.com/Mvth1s/Verto): open-source file converter
-- [SteamFolio](https://github.com/Mvth1s/SteamFolio): personal dashboard built on the Steam API
+## $ contact
 
----
+[LinkedIn](https://linkedin.com/in/mathis-aguado) | [Portfolio](https://mathisaguado.vercel.app) | [Email](mailto:mag.d3v+github@pm.me)
 
-## 📫 Get in Touch
+<details>
+<summary><b>Version française</b></summary>
 
-- [LinkedIn](https://linkedin.com/in/mathis-aguado)
-- [Portfolio](https://mathisaguado.vercel.app)
-- [Email](mailto:mag.d3v+github@pm.me)
+<br>
 
----
+Étudiant en Master Cloud et DevOps en alternance. J'aime automatiser, construire des systèmes fiables et publier des outils open source. Au quotidien : Linux (EndeavourOS + KDE Plasma).
 
-> "Keep it simple, keep it creative."
+**Projets mis en avant**
+
+- [Verto](https://github.com/Mvth1s/Verto) : convertisseur de fichiers open source (Tauri v2 + Vue 3, CI multi-OS)
+- [hwbench](https://github.com/Mvth1s/hwbench) : infos matérielles et benchmarks Linux en CLI, avec classement public
+- [linux-setup](https://github.com/Mvth1s/linux-setup) : provisioning d'une machine Linux en une commande
+- [MyLittleAnsible](https://github.com/Mvth1s/MyLittleAnsible) : mini Ansible en Python (SSH + playbooks YAML)
+- [Le-Fil-des-Chapitres](https://github.com/Mvth1s/Le-Fil-des-Chapitres) : suivi de lecture de webtoons (en cours)
+- [hors-pc](https://github.com/Mvth1s/hors-pc) : catalogue des exclus consoles, mis à jour chaque semaine par GitHub Actions
+
+Les cartes ci-dessus sont régénérées chaque nuit par un workflow GitHub Actions et un script Python maison.
+
+</details>
