@@ -22,19 +22,6 @@ monitoring  Prometheus, Grafana
 os          EndeavourOS, Fedora, Debian, openSUSE
 ```
 
-## $ ls ~/projects --featured
-
-```text
-Verto                 open-source file converter (Tauri v2 + Vue 3, multi-OS CI)
-hwbench               Linux hardware info and benchmark CLI, public leaderboard
-linux-setup           one-command provisioning for Arch, Debian, Fedora, openSUSE
-MyLittleAnsible       mini Ansible in Python: SSH + YAML playbooks
-Le-Fil-des-Chapitres  webtoon reading tracker (work in progress)
-hors-pc               console exclusives catalogue, weekly GitHub Actions update
-```
-
-[Verto](https://github.com/Mvth1s/Verto) | [hwbench](https://github.com/Mvth1s/hwbench) | [linux-setup](https://github.com/Mvth1s/linux-setup) | [MyLittleAnsible](https://github.com/Mvth1s/MyLittleAnsible) | [Le-Fil-des-Chapitres](https://github.com/Mvth1s/Le-Fil-des-Chapitres) | [hors-pc](https://github.com/Mvth1s/hors-pc)
-
 ## $ contact
 
 [LinkedIn](https://linkedin.com/in/mathis-aguado) | [Portfolio](https://mathisaguado.vercel.app) | [Email](mailto:mag.d3v+github@pm.me)
@@ -45,15 +32,6 @@ hors-pc               console exclusives catalogue, weekly GitHub Actions update
 <br>
 
 Étudiant en Master Cloud et DevOps en alternance. J'aime automatiser, construire des systèmes fiables et publier des outils open source. Au quotidien : Linux (EndeavourOS + KDE Plasma).
-
-**Projets mis en avant**
-
-- [Verto](https://github.com/Mvth1s/Verto) : convertisseur de fichiers open source (Tauri v2 + Vue 3, CI multi-OS)
-- [hwbench](https://github.com/Mvth1s/hwbench) : infos matérielles et benchmarks Linux en CLI, avec classement public
-- [linux-setup](https://github.com/Mvth1s/linux-setup) : provisioning d'une machine Linux en une commande
-- [MyLittleAnsible](https://github.com/Mvth1s/MyLittleAnsible) : mini Ansible en Python (SSH + playbooks YAML)
-- [Le-Fil-des-Chapitres](https://github.com/Mvth1s/Le-Fil-des-Chapitres) : suivi de lecture de webtoons (en cours)
-- [hors-pc](https://github.com/Mvth1s/hors-pc) : catalogue des exclus consoles, mis à jour chaque semaine par GitHub Actions
 
 Les cartes ci-dessus sont régénérées chaque nuit par un workflow GitHub Actions et un script Python maison.
 
