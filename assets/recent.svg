@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="234" viewBox="0 0 840 234" role="img" aria-label="~/repos">
+<title>~/repos</title>
+<style>
+text{font-family:'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace;}
+.l{opacity:0;animation:in .4s ease-out forwards;}
+@keyframes in{to{opacity:1;}}
+@media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1;}}
+</style>
+<rect x="0.5" y="0.5" width="839" height="233" rx="10" fill="#0a0f0a" stroke="#1f3a22"/>
+<path d="M0.5 10.5a10 10 0 0 1 10-10h819a10 10 0 0 1 10 10v18h-839z" fill="#111a11"/>
+<circle cx="20" cy="15" r="5" fill="#3f7d47"/><circle cx="38" cy="15" r="5" fill="#3f7d47"/><circle cx="56" cy="15" r="5" fill="#7CFC8A"/>
+<text x="420.0" y="19" text-anchor="middle" font-size="12" fill="#3f7d47">~/repos</text>
+<text class="l" style="animation-delay:0.20s" x="24" y="56" font-size="14" fill="#3f7d47" xml:space="preserve">$ ls -lt ~/repos | head -5</text>
+<text class="l" style="animation-delay:0.50s" x="24" y="84" font-size="13" fill="#7CFC8A" xml:space="preserve">10/11/2026  hors-pc                Catalogue des exclus PS5 et Switch/Switch 2 ...</text>
+<text class="l" style="animation-delay:0.65s" x="24" y="108" font-size="13" fill="#7CFC8A" xml:space="preserve">09/11/2026  Ce-Soir-Je-Joue-A      "Ce soir je joue à..." : une web app qui se ...</text>
+<text class="l" style="animation-delay:0.80s" x="24" y="132" font-size="13" fill="#7CFC8A" xml:space="preserve">06/11/2026  linux-setup            Provisioning automatisé d'une nouvelle machi...</text>
+<text class="l" style="animation-delay:0.95s" x="24" y="156" font-size="13" fill="#7CFC8A" xml:space="preserve">31/10/2026  Le-Fil-des-Chapitres   Application web de suivi de lecture de webtoons</text>
+<text class="l" style="animation-delay:1.10s" x="24" y="180" font-size="13" fill="#7CFC8A" xml:space="preserve">30/10/2026  Empreinte-Numerique    Permet de montrer toute les informations qu'...</text>
+<text x="820" y="220" text-anchor="end" font-size="11" fill="#3f7d47"><!--ts-->updated 10/11/2026 16:50 UTC<!--/ts--></text>
+</svg>
