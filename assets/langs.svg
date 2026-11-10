@@ -11,11 +11,11 @@ text{font-family:'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monosp
 <circle cx="20" cy="15" r="5" fill="#3f7d47"/><circle cx="38" cy="15" r="5" fill="#3f7d47"/><circle cx="56" cy="15" r="5" fill="#7CFC8A"/>
 <text x="420.0" y="19" text-anchor="middle" font-size="12" fill="#3f7d47">~/langs</text>
 <text class="l" style="animation-delay:0.20s" x="24" y="56" font-size="14" fill="#3f7d47" xml:space="preserve">$ langs --top 6</text>
-<text class="l" style="animation-delay:0.50s" x="24" y="84" font-size="14" fill="#7CFC8A" xml:space="preserve">Python      [######..............]  29.3%</text>
-<text class="l" style="animation-delay:0.65s" x="24" y="108" font-size="14" fill="#7CFC8A" xml:space="preserve">Vue         [####................]  19.8%</text>
-<text class="l" style="animation-delay:0.80s" x="24" y="132" font-size="14" fill="#7CFC8A" xml:space="preserve">TypeScript  [####................]  19.2%</text>
-<text class="l" style="animation-delay:0.95s" x="24" y="156" font-size="14" fill="#7CFC8A" xml:space="preserve">Rust        [##..................]   8.9%</text>
-<text class="l" style="animation-delay:1.10s" x="24" y="180" font-size="14" fill="#7CFC8A" xml:space="preserve">JavaScript  [##..................]   7.6%</text>
-<text class="l" style="animation-delay:1.25s" x="24" y="204" font-size="14" fill="#7CFC8A" xml:space="preserve">C#          [#...................]   6.7%</text>
-<text x="820" y="244" text-anchor="end" font-size="11" fill="#3f7d47"><!--ts-->updated 10/11/2026 16:50 UTC<!--/ts--></text>
+<text class="l" style="animation-delay:0.50s" x="24" y="84" font-size="14" fill="#7CFC8A" xml:space="preserve">Python      [###########.........]  53.6%</text>
+<text class="l" style="animation-delay:0.65s" x="24" y="108" font-size="14" fill="#7CFC8A" xml:space="preserve">Vue         [####................]  20.7%</text>
+<text class="l" style="animation-delay:0.80s" x="24" y="132" font-size="14" fill="#7CFC8A" xml:space="preserve">TypeScript  [###.................]  13.7%</text>
+<text class="l" style="animation-delay:0.95s" x="24" y="156" font-size="14" fill="#7CFC8A" xml:space="preserve">JavaScript  [#...................]   4.8%</text>
+<text class="l" style="animation-delay:1.10s" x="24" y="180" font-size="14" fill="#7CFC8A" xml:space="preserve">Shell       [#...................]   4.3%</text>
+<text class="l" style="animation-delay:1.25s" x="24" y="204" font-size="14" fill="#7CFC8A" xml:space="preserve">Rust        [#...................]   2.6%</text>
+<text x="820" y="244" text-anchor="end" font-size="11" fill="#3f7d47"><!--ts-->updated 10/11/2026 16:54 UTC<!--/ts--></text>
 </svg>
