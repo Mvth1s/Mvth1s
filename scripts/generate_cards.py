@@ -194,7 +194,7 @@ def main():
     repos = fetch_repos()
     write_if_changed(OUT / "header.svg", header_svg(now))
     write_if_changed(OUT / "stats.svg", stats_svg(repos, fetch_activity(), now))
-    write_if_changed(OUT / "langs.svg", langs_svg(fetch_languages(repos), now))
+    write_if_changed(OUT / "langs.svg", langs_svg(fetch_languages([r for r in repos if not r["archived"]]), now))
     write_if_changed(OUT / "recent.svg", recent_svg(repos, now))
 
 
